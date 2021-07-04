@@ -1,0 +1,214 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: 'PT Sans', sans-serif;
+	background-color: pink;
+
+}
+
+.navbar{
+
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing:0.01rem;
+	background: rgba(0,0,0,0.6) !important;
+	padding: 20px 0px;
+
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+
+	color: white;
+	padding-left: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: pink;
+}
+
+.container-fluid .mainimg{
+
+	margin-top: 10%;
+	margin-bottom: 4%;
+	display: flex;
+    justify-content: center;
+
+}
+
+#img1{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+
+.heading-content{
+/*	position: absolute;
+	margin-top: -280px;
+	margin-left: 250px;*/
+	max-width: 100%;
+}
+
+.heading-content h5{
+
+	font-size: 3em;
+	font-weight: 300;
+	color: black;
+	font-family: monospace;
+}
+.heading-content h1{
+
+	font-size: 4em;
+	font-weight: 300;
+	color: black;
+	font-family: monospace;
+}
+
+.heading-content p{
+
+	font-size: 1em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: black;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+	font-family: monospace;
+}
+
+
+#about .btn{
+	border: 2px solid;
+	width: 40%;
+	padding:  15px 22px;
+	background: #000;
+	border-radius: 5px;
+	margin-top: 10px;
+
+}
+
+#about .btn a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	/*font-weight: bold;
+*/	text-transform: uppercase;
+}
+
+#about .btn:hover{
+
+	background-color: rgba(0,0,0,0.8);
+	cursor: pointer;
+	font-weight: bold;
+
+}
+
+#about .col-lg-6 p{
+	font-size: 19.5px;
+} 
+
+#img2{
+/*	height: 350px;
+	width: 400px;*/
+
+	margin-top: 2px;
+}
+
+#allcards{
+
+	background-image: url(https://i.pinimg.com/236x/76/82/68/768268c56c34dfa5cd4729669423ff93.jpg);
+	background-position: center;
+	background-size: 100%;
+}
+
+#allcards:hover{
+	background-image: none;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	transition: 0.6s;
+}
+
+#allcards:hover .btn{
+
+	background-color: white;
+	color:rgba(0,0,0,0.8);
+}
+
+#gall{
+
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+}
+
+#projects{
+	margin-left: 35px;
+}
+
+footer{
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer{
+	/*display: flex;*/
+	left: 0;
+    right: 0;
+	position: absolute;
+	padding: 50px 10px;
+	text-align: center;
+	color: white;
+	height: auto;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.7);
+	 
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#projects{
+	margin-bottom: 5%;
+}
+
+.icons{
+	margin-top: 1%;
+	margin-bottom: 5%;
+	display: inline-block;
+}
+
+.icons a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	
+}
+
+.icons a svg{
+
+	height:28px;
+	width: 28px;
+
+}
+
+.icons a svg:hover{
+	cursor: pointer;
+	color: #0066ff;
+	height: 30;
+	width: 30;
+}
+
+.offset:before{
+	display: block;;
+	content: "";
+	height: 6rem;
+}
+
+
