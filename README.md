@@ -1,4 +1,4 @@
-# Krishna Shah's portfolio
+# Krishna Shah
 
 Hii there! I'm Krishna. Check out my portfolio to know more about me!
 
