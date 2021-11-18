@@ -15,7 +15,7 @@ body{
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing:0.01rem;
-	background: rgba(0,0,0,0.6) !important;
+	background: rgba(0,0,0,0.7) !important;
 	padding: 20px 0px;
 
 
@@ -80,14 +80,16 @@ body{
 	font-family: monospace;
 }
 
-
+.card-subtitle{
+	color:rgb(190, 190, 190) !important;
+}
 #about .btn{
 	border: 2px solid;
 	width: 40%;
-	padding:  15px 22px;
+	padding:  10px 12px;
 	background: #000;
 	border-radius: 5px;
-	margin-top: 10px;
+	margin-top: 5px;
 
 }
 
@@ -103,7 +105,6 @@ body{
 
 	background-color: rgba(0,0,0,0.8);
 	cursor: pointer;
-	font-weight: bold;
 
 }
 
@@ -118,11 +119,29 @@ body{
 	margin-top: 2px;
 }
 
-#allcards{
+/* #allcards{
 
 	background-image: url(https://i.pinimg.com/236x/76/82/68/768268c56c34dfa5cd4729669423ff93.jpg);
 	background-position: center;
 	background-size: 100%;
+} */
+.covid{
+	background:no-repeat url("./covid\ ss.png");
+	background-position: left;
+	background-size: 100% 100%;
+}
+.todo{
+	background:no-repeat url("./to-do\ ss.png");
+	background-position: left;
+	background-size: 100% 100%;
+}
+.Portfolio{
+	background:no-repeat url("./portfolio\ ss.png");
+	background-position: left;
+	background-size: 100% 100%;
+}
+.card-body{
+	visibility: hidden;
 }
 
 #allcards:hover{
@@ -130,6 +149,9 @@ body{
 	background-color: rgba(0,0,0,0.8);
 	color: #fff;
 	transition: 0.6s;
+}
+#allcards:hover .card-body{
+	visibility: visible;
 }
 
 #allcards:hover .btn{
@@ -159,12 +181,12 @@ footer{
 	left: 0;
     right: 0;
 	position: absolute;
-	padding: 50px 10px;
 	text-align: center;
 	color: white;
 	height: auto;
 	width: 100vw;
 	background-color: rgba(0,0,0,0.7);
+
 	 
 }
 
@@ -187,20 +209,20 @@ hr.style-two {
 .icons a{
 	text-decoration: none;
 	color: white;
-	padding: 15px;
+	padding: 10px;
 	
 }
 
 .icons a svg{
 
-	height:28px;
-	width: 28px;
+	height:25px;
+	width: 25px;
 
 }
 
 .icons a svg:hover{
 	cursor: pointer;
-	color: #0066ff;
+	color: #97c0ff;
 	height: 30;
 	width: 30;
 }
@@ -211,4 +233,6 @@ hr.style-two {
 	height: 6rem;
 }
 
-
+.active{
+	color: pink;
+}
