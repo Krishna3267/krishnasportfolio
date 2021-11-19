@@ -5,7 +5,11 @@ body{
 	box-sizing: border-box;
 	overflow-x: hidden;
 	font-family: 'PT Sans', sans-serif;
-	background-color: pink;
+	/* background-color: pink; */
+	background-image: url(https://image.freepik.com/free-photo/decorative-rough-background_24972-295.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -35,7 +39,7 @@ body{
 .container-fluid .mainimg{
 
 	margin-top: 10%;
-	margin-bottom: 4%;
+	margin-bottom: 2%;
 	display: flex;
     justify-content: center;
 
@@ -103,8 +107,10 @@ body{
 
 #about .btn:hover{
 
-	background-color: rgba(0,0,0,0.8);
 	cursor: pointer;
+
+	transition: 0.25s;
+	box-shadow: inset 20em 0 0 0 rgb(48, 35, 37);
 
 }
 
@@ -156,8 +162,18 @@ body{
 
 #allcards:hover .btn{
 
-	background-color: white;
-	color:rgba(0,0,0,0.8);
+	background-color: transparent;
+	color:white;
+    transition: 0.3s;
+	border-color: white;
+}
+#allcards:hover .btn:hover{
+
+	/* background-color: white;
+	color: black; */
+    color: black;
+	box-shadow: inset 8em 0 0 0 white;
+
 }
 
 #gall{
