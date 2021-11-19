@@ -6,10 +6,11 @@ body{
 	overflow-x: hidden;
 	font-family: 'PT Sans', sans-serif;
 	/* background-color: pink; */
-	background-image: url(https://image.freepik.com/free-photo/decorative-rough-background_24972-295.jpg);
+	background-image: url(./backcover.jpg);
 	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
     background-attachment: fixed;
+
 
 }
 
@@ -33,7 +34,7 @@ body{
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover{
-	color: pink;
+	color: rgb(255, 175, 83);
 }
 
 .container-fluid .mainimg{
@@ -89,8 +90,8 @@ body{
 }
 #about .btn{
 	border: 2px solid;
-	width: 40%;
-	padding:  10px 12px;
+	width: fit-content;
+	padding:  10px 10px;
 	background: #000;
 	border-radius: 5px;
 	margin-top: 5px;
